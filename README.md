@@ -2,7 +2,7 @@
 
 Kawaii Hand Puzzle Cam is a cute real-time webcam puzzle and photo booth application. The app uses a webcam to capture the user, tracks hand gestures with MediaPipe, lets the user create puzzles from live camera photos, and allows puzzle pieces to be moved using pinch gestures.
 
-The project also includes a kawaii photo booth, face stickers, a gallery, music, sound effects, score tracking, and an animated bunny helper.
+The project also includes a kawaii/cute photo booth, face stickers, a gallery, music, sound effects, score tracking, and an animated bunny helper.
 
 ## Features
 
