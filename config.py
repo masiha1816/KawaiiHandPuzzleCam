@@ -1,0 +1,101 @@
+"""
+config.py
+
+Settings for Kawaii Hand Puzzle Cam.
+OpenCV uses BGR color order, not RGB.
+"""
+
+APP_NAME = "Kawaii Hand Puzzle Cam"
+WINDOW_NAME = "Kawaii Puzzle Cam"
+
+# Camera
+CAMERA_INDEX = 0
+MAX_CAMERA_INDEX_TO_TRY = 5
+
+FRAME_WIDTH = 1280
+FRAME_HEIGHT = 720
+FPS_TARGET = 60
+
+# States
+STATE_MENU = "menu"
+STATE_CAMERA = "camera"
+STATE_COUNTDOWN = "countdown"
+STATE_PUZZLE = "puzzle"
+STATE_COMPLETE = "complete"
+STATE_PAUSED = "paused"
+STATE_PHOTOBOOTH = "photobooth"
+STATE_PHOTOBOOTH_COUNTDOWN = "photobooth_countdown"
+STATE_GALLERY = "gallery"
+STATE_SETTINGS = "settings"
+
+# BGR colors for OpenCV
+PASTEL_PINK = (205, 180, 235)
+SOFT_PINK = (220, 205, 245)
+CREAM = (220, 240, 255)
+PEACH = (170, 205, 255)
+BROWN = (70, 85, 120)
+WHITE = (255, 255, 255)
+BLACK = (25, 25, 25)
+
+LIGHT_LAVENDER = (245, 225, 245)
+SOFT_MINT = (220, 245, 230)
+SOFT_YELLOW = (200, 240, 255)
+DARK_PINK = (180, 95, 170)
+
+# Hand control settings
+PINCH_THRESHOLD = 75
+PINCH_RELEASE_THRESHOLD = 105
+PINCH_DEBOUNCE_FRAMES = 2
+
+PEACE_HOLD_SECONDS = 1.0
+PEACE_DEBOUNCE_FRAMES = 5
+
+CURSOR_SMOOTHING_OLD = 0.45
+CURSOR_SMOOTHING_NEW = 0.55
+
+# Zoom
+MIN_ZOOM = 1.0
+MAX_ZOOM = 2.5
+ZOOM_SMOOTHING = 0.15
+ZOOM_PINCH_ACTIVE_DISTANCE = 150
+ZOOM_SENSITIVITY = 0.006
+
+COUNTDOWN_SECONDS = 3.2
+
+# Default puzzle difficulty
+PUZZLE_ROWS = 3
+PUZZLE_COLS = 3
+
+TARGET_PUZZLE_WIDTH_RATIO = 0.65
+TARGET_PUZZLE_HEIGHT_RATIO = 0.65
+
+SNAP_THRESHOLD = 85
+PIECE_SMOOTHING = 0.80
+
+PIECE_BORDER_THICKNESS = 3
+GHOST_ALPHA = 0.22
+
+# UI
+TITLE_BAR_HEIGHT = 76
+BOTTOM_CARD_HEIGHT = 110
+ROUNDED_RADIUS = 22
+
+DEBUG_FONT_SCALE = 0.55
+NORMAL_FONT_SCALE = 0.7
+TITLE_FONT_SCALE = 1.15
+
+# Save files
+SCREENSHOT_FOLDER = "screenshots"
+BEST_SCORE_FILE = "best_scores.json"
+SETTINGS_FILE = "settings.json"
+
+# Assets
+SOUND_CAPTURE = "assets/sounds/capture.wav"
+SOUND_PICKUP = "assets/sounds/pickup.wav"
+SOUND_PLACE = "assets/sounds/place.wav"
+SOUND_SUCCESS = "assets/sounds/success.wav"
+SOUND_SPARKLE = "assets/sounds/sparkle.wav"
+
+STICKER_HEART = "assets/stickers/heart.png"
+STICKER_SPARKLE = "assets/stickers/sparkle.png"
+STICKER_BOW = "assets/stickers/bow.png"

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Mac files
+.DS_Store
+
+# App/build files
+build/
+dist/
+*.spec
+
+# User local files
+settings.json
+best_scores.json
+
+# Generated screenshots/photos
+screenshots/
+
+# Backups and patch files
+main_backup_*.py
+*_backup_*.py
+add_*_to_main.py
+fix_*_layout.py
+
+# Logs
+*.log
