@@ -142,6 +142,6 @@ The project is currently a working Python webcam app with puzzle gameplay, photo
 
 ## Author
 
-Built by masiha1816
+Built by Nargess Hassani
 
 This project demonstrates real-time computer vision, hand gesture recognition, webcam interaction, playful UI design, and basic game mechanics using Python, OpenCV, MediaPipe, NumPy, and Pygame.
